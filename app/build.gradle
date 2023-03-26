@@ -7,6 +7,10 @@ android {
     namespace 'com.emirhanduman.tiptime'
     compileSdk 33
 
+    buildFeatures {
+        viewBinding = true
+    }
+
     defaultConfig {
         applicationId "com.emirhanduman.tiptime"
         minSdk 29
